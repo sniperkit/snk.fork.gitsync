@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2018 The gitsync authors. All rights reserved.
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
@@ -9,14 +14,14 @@ import (
 	"os"
 	"runtime"
 
-	gitsync "github.com/seibert-media/gitsync/pkg"
-
 	flag "github.com/bborbe/flagenv"
 	"github.com/golang/glog"
 	"github.com/kolide/kit/version"
 	"github.com/playnet-public/libs/log"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
+
+	gitsync "github.com/sniperkit/snk.fork.gitsync/pkg"
 )
 
 const (

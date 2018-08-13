@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2018 The gitsync authors. All rights reserved.
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
@@ -15,8 +20,8 @@ import (
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gbytes"
 
-	"github.com/seibert-media/gitsync/pkg/handler"
-	"github.com/seibert-media/gitsync/pkg/mocks"
+	"github.com/sniperkit/snk.fork.gitsync/pkg/handler"
+	"github.com/sniperkit/snk.fork.gitsync/pkg/mocks"
 )
 
 var _ = Describe("handler", func() {

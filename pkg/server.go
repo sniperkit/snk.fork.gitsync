@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package gitsync
 
 import (
@@ -19,9 +24,9 @@ import (
 	"gopkg.in/src-d/go-git.v4/plumbing/transport/ssh"
 	"gopkg.in/src-d/go-git.v4/storage/filesystem"
 
-	"github.com/seibert-media/gitsync/pkg/git"
-	"github.com/seibert-media/gitsync/pkg/handler"
-	"github.com/seibert-media/gitsync/pkg/hook"
+	"github.com/sniperkit/snk.fork.gitsync/pkg/git"
+	"github.com/sniperkit/snk.fork.gitsync/pkg/handler"
+	"github.com/sniperkit/snk.fork.gitsync/pkg/hook"
 )
 
 // Server creates all required components and starts the http server

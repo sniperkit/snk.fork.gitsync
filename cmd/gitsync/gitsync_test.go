@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2018 The gitsync authors. All rights reserved.
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
@@ -24,7 +29,7 @@ var server *ghttp.Server
 
 var _ = BeforeSuite(func() {
 	var err error
-	pathToServerBinary, err = gexec.Build("github.com/seibert-media/gitsync/cmd/gitsync")
+	pathToServerBinary, err = gexec.Build("github.com/sniperkit/snk.fork.gitsync/cmd/gitsync")
 	Expect(err).NotTo(HaveOccurred())
 })
 
